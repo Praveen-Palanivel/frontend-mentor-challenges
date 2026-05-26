@@ -31,7 +31,7 @@ body {
     width: 320px;
     padding: 25px;
     border-radius: 20px;
-    border: 2px solid hsl(0, 0%, 7%);
+    border: 1px solid hsl(0, 0%, 7%);
     box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
 }
 
