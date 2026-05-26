@@ -22,17 +22,17 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    font-family: 'FigTree', sans-serif;
+    font-family: 'Figtree', sans-serif;
 }
 
 .container {
     background-color: white;
-    height: 475px;
+    height: auto;
     width: 320px;
     padding: 25px;
     border-radius: 20px;
-    border: 1px black solid;
-    box-shadow: 10px 10px;
+    border: 2px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
 }
 
 .illustration img {
@@ -42,25 +42,33 @@ body {
 }
 
 .btn {
-    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.learning:hover {
+    cursor: pointer;
 }
 
 .learning {
     background-color: hsl(47, 88%, 63%);
     border: none;
     color: black;
-    font-weight: 800;
     border-radius: 4px;
     height: 30px;
     width: 88px;
-    font-family: 'FigTree';
+    font-family: 'Figtree';
     font-weight: 800;
     font-size: 15px;
 }
 
-.title {
+.title:hover {
     color: hsl(47, 88%, 63%);
-    font-weight: 800;
+    cursor: pointer;
+}
+
+.title {
+    color: hsl(0, 0%, 7%);
+    transition: color 0.2s ease;
 }
 
 .content {
